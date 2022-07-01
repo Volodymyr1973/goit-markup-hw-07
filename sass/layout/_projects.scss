@@ -1,0 +1,44 @@
+.projects {
+  background-color: #ffffff;
+  padding: 94px 0;
+}
+
+.projects-lists {
+  display: flex;
+  gap: 30px;
+}
+
+.projects-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.projects-label {
+  position: relative;
+}
+
+.projects-label-text {
+  position: absolute;
+  bottom: 0;
+  padding: 27px 0;
+
+  width: 100%;
+
+  background: rgba(47, 48, 58, 0.8);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* -----Другой вариант сетки----- */
+
+/* .projects-item:not(:last-child) {
+  margin-right: 30px;
+} */

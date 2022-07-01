@@ -1,0 +1,143 @@
+.header {
+  height: 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -----Линки хедера----- */
+
+/* .header-lists,
+.header-contact-lists {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */
+
+/* -----Блок навигации----- */
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* -----Логотип в хедере----- */
+
+.logo {
+  margin-right: 93px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-web {
+  color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover,
+.logo-web:hover {
+  color: var(--accent-color);
+}
+
+.logo:focus,
+.logo-web:focus {
+  color: var(--accent-color);
+}
+
+.header-lists {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-item {
+  margin-right: 50px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
+.header-item-link {
+  position: relative;
+  display: block;
+  height: 100%;
+  padding: 32px 0;
+}
+
+.header-lists,
+.header-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+
+  background-color: #2196f3;
+  border-radius: 2px;
+}
+
+.header-item-link:hover,
+.header-item-link:focus {
+  color: var(--accent-color);
+}
+
+/* -----Контакты хедера----- */
+
+.header-contact-lists {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.header-contact-item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.header-contact-link {
+  display: flex;
+  padding: 32px 0;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact-pic {
+  fill: currentColor;
+  margin-right: 10px;
+}
