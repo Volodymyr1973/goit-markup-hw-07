@@ -1,4 +1,32 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../../fonts/Raleway-Bold.woff2") format("woff2"), url("../../fonts/Raleway-Bold.woff") format("woff"), url("../../fonts/Raleway-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../../fonts/Roboto-Black.woff") format("woff"), url("../../fonts/Roboto-Black.woff2") format("woff2"), url("../../fonts/Roboto-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../../fonts/Roboto-Medium.woff") format("woff"), url("../../fonts/Roboto-Medium.woff2") format("woff2"), url("../../fonts/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../../fonts/Roboto-Regular.woff") format("woff"), url("../../fonts/Roboto-Regular.woff2") format("woff2"), url("../../fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../../fonts/Roboto-Bold.woff") format("woff"), url("../../fonts/Roboto-Bold.woff2") format("woff2"), url("../../fonts/Roboto-Bold.ttf") format("truetype");
+}
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+  --main-font: "Roboto", sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -7,6 +35,7 @@
 
 html {
   width: 100%;
+  font-family: var(--main-font);
 }
 
 body {
@@ -15,14 +44,6 @@ body {
   font-style: normal;
   color: var(--primary-text-color);
   margin: 0;
-}
-
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-bg-color: #e5e5e5;
-  --main-font: "Roboto", sans-serif;
 }
 
 p,
@@ -59,6 +80,18 @@ img {
   margin: -1px;
 }
 
+.section {
+  padding: 94px 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -76,18 +109,6 @@ img {
 
 .lists {
   list-style: none;
-}
-
-.section {
-  padding: 94px 0;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .btn {

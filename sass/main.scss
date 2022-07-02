@@ -1,11 +1,14 @@
-@import './base/common';
+@import './base/fonts';
 @import './utils/var';
+@import './base/common';
 @import './base/reset';
 @import './utils/hidden';
-@import './base/common-selector';
 
 @import './components/section';
 @import './components/container';
+@import './components/title';
+@import './components/link';
+@import './components/lists';
 @import './components/btn';
 @import './components/modal';
 
