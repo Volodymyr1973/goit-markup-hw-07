@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 
-.logo_bottom {
+.logo__bottom {
   display: inline-block;
   margin-bottom: 20px;
   font-family: 'Raleway';
@@ -28,11 +28,11 @@
 
 // Адрес
 
-.address_item {
+.address__item {
   margin-top: 12px;
 }
 
-.address_text {
+.address__text {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -40,7 +40,7 @@
   color: #ffffff;
 }
 
-.address_link {
+.address__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -55,7 +55,7 @@
 
 // Ссылки в футере на соц.сети
 
-.footer-card_title {
+.footer-card__title {
   margin-top: 12px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -66,17 +66,17 @@
   color: #ffffff;
 }
 
-.footer-card_lists {
+.footer-card__lists {
   display: flex;
   align-items: center;
   justify-content: left;
 }
 
-.footer-card_item:not(:last-child) {
+.footer-card__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-card_link {
+.footer-card__link {
   display: inline-block;
 
   width: 44px;
@@ -95,14 +95,14 @@
     color: #ffffff;
   }
 
-  .footer-card_icon {
+  .footer-card__icon {
     fill: currentColor;
   }
 }
 
 // Форма футера
 
-.footer-form_title {
+.footer-form__title {
   margin-top: 12px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -113,13 +113,13 @@
 
   color: #ffffff;
 }
-.footer-form_main {
+.footer-form__main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-form_input-mail {
+.footer-form__input-mail {
   width: 360px;
   height: 50px;
   padding: 15px 16px;
@@ -142,7 +142,7 @@
   }
 }
 
-.footer-form_btn {
+.footer-form__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,7 +167,7 @@
   }
 }
 
-.footer-form_btn-text {
+.footer-form__btn-text {
   margin-right: 10px;
   letter-spacing: 0.06em;
   font-weight: 700;

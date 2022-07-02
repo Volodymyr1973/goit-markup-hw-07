@@ -4,17 +4,17 @@
 
 // Портфолио кнопки
 
-.portfolio_btn-lists {
+.portfolio__btn-lists {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio_btn-item + .portfolio_btn-item {
+.portfolio__btn-item + .portfolio_btn-item {
   margin-left: 8px;
 }
 
-.portfolio-btn {
+.portfolio__btn {
   display: inline-block;
   padding: 6px 22px;
   border: none;
@@ -43,13 +43,13 @@
 
 // Портфолио карточки
 
-.portfolio_lists {
+.portfolio__lists {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.portfolio_item {
+.portfolio__item {
   flex-basis: calc((100% - 60px) / 3);
   /* margin-right: 30px;
   margin-bottom: 30px; */
@@ -71,7 +71,7 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 } */
 
-.portfolio_link {
+.portfolio__link {
   display: inline-block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -82,12 +82,12 @@
   }
 }
 
-.portfolio_photo-task {
+.portfolio__photo-task {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio_photo-text {
+.portfolio__photo-text {
   position: absolute;
   left: 0;
   top: 0;
@@ -110,22 +110,22 @@
 
   background-color: rgba(33, 150, 243, 0.9);
 
-  .portfolio_link:hover &,
-  .portfolio_link:focus & {
+  .portfolio__link:hover &,
+  .portfolio__link:focus & {
     transform: translateY(0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
 
-.portfolio_desc {
+.portfolio__desc {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
 
-.portfolio_title {
+.portfolio__title {
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
@@ -133,7 +133,7 @@
   color: var(--title-text-color);
 }
 
-.portfolio_text {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);

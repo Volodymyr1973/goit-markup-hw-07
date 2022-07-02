@@ -1,13 +1,13 @@
-.client_lists {
+.client__lists {
   display: flex;
   gap: 30px;
 }
 
-.client_item {
+.client__item {
   flex-basis: calc((100% - 150px) / 6);
 }
 
-.client_link {
+.client__link {
   display: block;
   padding: 16px 0;
   border: 1px solid #afb1b8;
@@ -22,7 +22,7 @@
     color: #2196f3;
   }
 
-  .client_icon {
+  .client__icon {
     display: block;
     margin: 0 auto;
     fill: currentColor;

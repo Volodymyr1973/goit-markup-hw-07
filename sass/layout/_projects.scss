@@ -3,26 +3,26 @@
   padding: 94px 0;
 }
 
-.projects_lists {
+.projects__lists {
   display: flex;
   gap: 30px;
 }
 
-.projects_item {
+.projects__item {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.projects_label {
+.projects__label {
   position: relative;
 
-  .projects_link:focus &,
-  .projects_link:hover & {
+  .projects__link:focus &,
+  .projects__link:hover & {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
-.projects_text {
+.projects__text {
   position: absolute;
   bottom: 0;
   padding: 27px 0;
