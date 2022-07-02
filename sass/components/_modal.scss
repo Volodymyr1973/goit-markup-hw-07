@@ -41,7 +41,7 @@
     transform: scale(0) translate(-50%, -50%);
   }
 
-  .modal-main-title {
+  .modal_main-title {
     margin-bottom: 12px;
 
     font-family: 'Roboto';
@@ -64,7 +64,7 @@
 
 // Обертка поля формы
 
-.modal-form-wrapper {
+.modal-form_wrapper {
   display: flex;
   flex-direction: column;
 
@@ -85,7 +85,7 @@
 
 // Поля ввода
 
-.modal-form-wrapper input {
+.modal-form_wrapper input {
   height: 40px;
   width: 100%;
   padding-left: 42px;
@@ -96,7 +96,7 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-text {
+.modal-form_text {
   margin-bottom: 4px;
 
   font-family: 'Roboto';
@@ -109,20 +109,20 @@
   color: #757575;
 }
 
-.modal-form-text + textarea {
+.modal-form_text + textarea {
   outline: none;
 }
 
 // Обертка иконки
 
-.modal-input-icon {
+.modal-form_input-icon {
   position: relative;
   display: flex;
 }
 
 // Иконка на поле ввода формы
 
-.modal-form-icon {
+.modal-form_icon {
   position: absolute;
   left: 12px;
   top: 50%;
@@ -137,7 +137,7 @@
 
 // Форма для комментария
 
-.modal-form-area {
+.modal-form_area {
   height: 120px;
   padding: 12px 16px;
   resize: none;
@@ -157,7 +157,7 @@
 
 // custom checkbox - закомментирован второй вариант
 
-.modal-form-box {
+.modal-form_box {
   margin-top: 20px;
   margin-bottom: 30px;
   display: flex;
@@ -165,7 +165,7 @@
   justify-content: center;
 }
 
-.form-box-text {
+.form-box_text {
   position: relative;
   padding-left: 23px;
   display: flex;
@@ -181,7 +181,7 @@
   color: #757575;
 }
 
-.modal-form-checkbox {
+.modal-form_checkbox {
   position: absolute;
   top: 50%;
   left: 0;
@@ -197,7 +197,7 @@
   justify-content: center;
   /* margin-right: 7px; */
 
-  .form-checkbox:checked ~ & {
+  .modal-form_input-checkbox:checked ~ & {
     position: absolute;
     top: 50%;
     left: 0;
@@ -211,12 +211,12 @@
     border: none;
   }
 
-  .form-checkbox:focus ~ & {
+  .modal-form_input-checkbox:focus ~ & {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }
 
-.modal-form-nocheckbox {
+.modal-form_checkbox--none {
   position: absolute;
   top: 50%;
   left: 0;
@@ -232,7 +232,7 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .form-checkbox:checked ~ & {
+  .modal-form_checkbox:checked ~ & {
     /* display: none; */
     position: absolute;
     top: 50%;
@@ -241,12 +241,12 @@
     opacity: 0;
   }
 
-  .form-checkbox:focus ~ & {
+  .modal-form_checkbox:focus ~ & {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }
 
-.form-link-text {
+.modal-form_link-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -265,7 +265,7 @@
 
 // Кнопка отправки данных формы
 
-.btn-modal-submit {
+.modal-form_btn-submit {
   display: flex;
   align-items: center;
   text-align: center;
@@ -297,7 +297,7 @@
 
 // Кнопка закрытия модального окна
 
-.modal-btn {
+.modal-form_btn--close {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -316,12 +316,12 @@
   cursor: pointer;
 }
 
-.modal-icon {
+.modal-form_icon--close {
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .modal-btn:hover &,
-  .modal-btn:focus & {
+  .modal-form_btn--close:hover &,
+  .modal-form_btn--close:focus & {
     fill: #2196f3;
   }
 }

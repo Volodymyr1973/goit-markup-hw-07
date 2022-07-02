@@ -3,23 +3,23 @@
   background-color: #ffffff;
 }
 
-.work-lists {
+.work_lists {
   display: flex;
   gap: 30px;
 }
 
-.work-item {
+.work_item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.work-icon {
+.work_icon {
   padding: 25px 100px;
   margin-bottom: 30px;
   border-radius: 4px;
   background-color: #f5f4fa;
 }
 
-.work-title {
+.work_title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -27,7 +27,7 @@
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.work-position {
+.work_position {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

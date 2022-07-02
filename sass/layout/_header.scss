@@ -12,7 +12,7 @@
 
 // Навигация хедера
 
-.header-nav {
+.header_nav {
   display: flex;
   align-items: center;
 }
@@ -37,7 +37,7 @@
   }
 }
 
-.logo-web {
+.logo_web {
   color: var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:focus,
@@ -46,7 +46,7 @@
   }
 }
 
-.header-lists {
+.header_lists {
   display: flex;
   align-items: center;
   height: 100%;
@@ -58,7 +58,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-item {
+.header_item {
   margin-right: 50px;
 
   &:last-child {
@@ -66,7 +66,7 @@
   }
 }
 
-.header-item-link {
+.header_link {
   position: relative;
   display: block;
   height: 100%;
@@ -84,7 +84,7 @@
   }
 }
 
-.current {
+.header_link--current {
   color: var(--accent-color);
 
   &::after {
@@ -102,17 +102,17 @@
 
 /* -----Контакты хедера----- */
 
-.header-contact-lists {
+.header-contact_lists {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.header-contact-item:not(:first-child) {
+.header-contact_item:not(:first-child) {
   margin-left: 50px;
 }
 
-.header-contact-link {
+.header-contact_link {
   display: flex;
   padding: 32px 0;
   align-items: center;
@@ -129,7 +129,7 @@
   }
 }
 
-.header-contact-pic {
+.header-contact_pic {
   fill: currentColor;
   margin-right: 10px;
 }
