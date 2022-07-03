@@ -1009,7 +1009,7 @@ input:focus + .modal-form__icon {
   margin-bottom: 50px;
 }
 
-.portfolio__btn-item + .portfolio_btn-item {
+.portfolio__btn-item + .portfolio__btn-item {
   margin-left: 8px;
 }
 
