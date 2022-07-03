@@ -12,9 +12,10 @@
   color: #ffffff;
 }
 .footer-form__main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include mainFlex(flex, center, center);
+  // display: f
+  // justify-content: cen
+  // align-items: cent;
 }
 
 .footer-form__input-mail {
@@ -41,9 +42,10 @@
 }
 
 .footer-form__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include mainFlex(flex, center, center);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   width: 200px;
   height: 50px;
   margin-left: 10px;

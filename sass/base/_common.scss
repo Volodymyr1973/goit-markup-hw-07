@@ -6,13 +6,17 @@
 
 html {
   width: 100%;
-  font-family: var(--main-font);
+  font-family: $primaryFont;
 }
 
 body {
   width: 100%;
-  font-family: var(--main-font);
+  font-family: $primaryFont;
   font-style: normal;
   color: var(--primary-text-color);
   margin: 0;
+}
+
+button {
+  cursor: pointer;
 }

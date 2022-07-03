@@ -43,9 +43,10 @@
 // Список иконок-ссылок на соц.сети
 
 .team-card__lists {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include mainFlex(flex, center, center);
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 }
 
 .team-card__item:not(:last-child) {

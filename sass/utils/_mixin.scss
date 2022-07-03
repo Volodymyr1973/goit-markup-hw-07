@@ -1,0 +1,17 @@
+@mixin buttonAction($butt, $hover, $focus) {
+  .btn {
+    background-color: $butt;
+    &:hover {
+      background-color: $hover;
+    }
+    &:focus {
+      background-color: $focus;
+    }
+  }
+}
+
+@mixin mainFlex($display, $justify, $align) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+}
