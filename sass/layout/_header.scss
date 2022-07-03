@@ -17,35 +17,6 @@
   align-items: center;
 }
 
-// Логотип в хедере
-
-.logo {
-  margin-right: 93px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
-}
-
-.logo__web {
-  color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:focus,
-  &:hover {
-    color: var(--accent-color);
-  }
-}
-
 .header__lists {
   display: flex;
   align-items: center;
@@ -98,38 +69,4 @@
     background-color: #2196f3;
     border-radius: 2px;
   }
-}
-
-/* -----Контакты хедера----- */
-
-.header-contact__lists {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-}
-
-.header-contact__item:not(:first-child) {
-  margin-left: 50px;
-}
-
-.header-contact__link {
-  display: flex;
-  padding: 32px 0;
-  align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
-}
-
-.header-contact__pic {
-  fill: currentColor;
-  margin-right: 10px;
 }
