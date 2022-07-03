@@ -21,6 +21,7 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    @include hoverAction(#2196f3, none);
+    // color: var(--accent-color);
   }
 }

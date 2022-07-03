@@ -68,8 +68,9 @@
 
   &:hover,
   &:focus {
-    background-color: #2196f3;
-    color: #ffffff;
+    @include hoverAction(#ffffff, #2196f3);
+    // background-color: #2196f3;
+    // color: #ffffff;
   }
 
   .team-card__icon {

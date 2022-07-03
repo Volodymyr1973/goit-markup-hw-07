@@ -36,8 +36,9 @@
 
   &:hover,
   &:focus {
-    background-color: #2196f3;
-    color: #ffffff;
+    @include hoverAction(#ffffff, #2196f3);
+    // background-color: #2196f3;
+    // color: #ffffff;
   }
 
   .footer-card__icon {
